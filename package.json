@@ -8,7 +8,8 @@
     "serve": "sirv build --cors --single",
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact build && touch ./build/.nojekyll && gh-pages -t -d build/"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
