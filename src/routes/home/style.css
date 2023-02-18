@@ -1,0 +1,52 @@
+.text {
+  font-size: 1.3rem;
+  user-select: none;
+  margin: 0.2rem 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  background-color: #ed0f93;
+  mix-blend-mode: overlay;
+  animation: width-change 1s forwards;
+}
+
+.error {
+  color: red !important;
+}
+
+.underline {
+  opacity: 0.7;
+  background-color: #6c757d;
+  height: 0.1rem;
+  width: 0%;
+  animation: underline-grow-and-color-chagne 1s forwards;
+}
+
+@keyframes width-change {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes underline-grow-and-color-chagne {
+  from {
+    background-color: #6c757d;
+    width: 0%;
+  }
+  to {
+    background-color: #ed0f93;
+    width: 100%;
+  }
+}
