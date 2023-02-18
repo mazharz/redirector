@@ -1,0 +1,16 @@
+{
+  "bundle.css": "bundle.d182b.css",
+  "bundle.js": "bundle.e897a.esm.js",
+  "bundle.js.map": "bundle.e897a.esm.js.map",
+  "polyfills.js": "polyfills.420b1.esm.js",
+  "polyfills.js.map": "polyfills.420b1.esm.js.map",
+  "route-home.css": "route-home.chunk.ec6bd.css",
+  "route-home.js": "route-home.chunk.54670.esm.js",
+  "route-home.js.map": "route-home.chunk.54670.esm.js.map",
+  "assets/favicon.ico": "assets/favicon.ico",
+  "manifest.json": "manifest.json",
+  "sw-esm.js": "sw-esm.js",
+  "sw-esm.js.map": "sw-esm.js.map",
+  "sw.js": "sw.js",
+  "sw.js.map": "sw.js.map"
+}
